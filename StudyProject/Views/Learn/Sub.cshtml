@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Sub";
+}
+
+@using (Html.BeginForm("Sub", "Learn", FormMethod.Post))
+{
+    <label for="textNo">Enter first number</label>
+    <input type="text" name="txtOne" placeholder="Enter first number" />
+    <br />
+    <label for="textNo">Enter second number</label>
+    <input type="text" name="txttwo" placeholder="Enter second number" />
+    <br />
+    <input type="submit" value="Subtraction" />
+    <h3>@TempData["r"]</h3>
+
+}

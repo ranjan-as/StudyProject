@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Fact";
+}
+
+@using (Html.BeginForm("Fact", "Learn", FormMethod.Post))
+{
+<label for="txtNo">Enter the number</label>
+<input type="text" name="txtNo" placeholder="Enter the number" />
+<input type="submit" value="Factorial" />
+<h3>@TempData["r"]</h3>
+}
+

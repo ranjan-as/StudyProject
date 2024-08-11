@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Addition</h2>
+@using (Html.BeginForm("Index", "Learn", FormMethod.Post))
+{
+<input type="text" placeholder="enter first no" name="txtOne" />
+<br />
+<input type="text" placeholder="enter second no" name="txtTwo" />
+<br />
+<input type="submit" value="add" />
+<h1>@ViewBag.One</h1>
+}
+
+
