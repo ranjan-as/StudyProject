@@ -19,6 +19,6 @@ namespace StudyProject.Models
 
         public string State { get; set; }
 
-        public int Country { get; set; }
+        public string Country { get; set; }
     }
 }
